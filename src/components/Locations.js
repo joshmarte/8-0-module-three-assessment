@@ -35,9 +35,9 @@ export default class Locations extends Component {
       let dataComp = this.state.apiData.map((item) => {
         return (
           <li className="location-container" key={item.id}>
-            <div className="location-name">Name: {item.name}</div>
-            <div className="location-climate">Climate: {item.climate}</div>
-            <div className="location-terrain">Terrain: {item.terrain}</div>
+            <h3 className="location-name">Name: {item.name}</h3>
+            <h3 className="location-climate">Climate: {item.climate}</h3>
+            <h3 className="location-terrain">Terrain: {item.terrain}</h3>
           </li>
         );
       });

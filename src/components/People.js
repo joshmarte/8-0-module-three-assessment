@@ -42,9 +42,9 @@ export default class People extends Component {
   renderTitle = (details) => {
     return (
       <div className="person-container">
-        <div className="person-name">Name: {details.name}</div>
-        <div className="person-age">Age: {details.age}</div>
-        <div className="person-gender">Gender: {details.gender}</div>
+        <h3 className="person-name">Name: {details.name}</h3>
+        <h3 className="person-age">Age: {details.age}</h3>
+        <h3 className="person-gender">Gender: {details.gender}</h3>
       </div>
     );
   };

@@ -13,9 +13,15 @@ function App() {
         <Route exact path="/">
           <h1>Welcome to GhibliApp</h1>
         </Route>
-        <Route path="/movies" component={Movies} />
-        <Route path="/people" component={People} />
-        <Route path="/locations" component={Locations} />
+        <Route path="/movies">
+          <Movies />
+        </Route>
+        <Route path="/people">
+          <People />
+        </Route>
+        <Route path="/locations">
+          <Locations />
+        </Route>
       </Switch>
     </div>
   );
